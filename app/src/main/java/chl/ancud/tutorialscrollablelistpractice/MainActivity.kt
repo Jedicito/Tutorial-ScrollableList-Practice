@@ -65,10 +65,10 @@ fun TarjetaCurso(
             .height(68.dp)
     ) {
         Row {
-            Column (modifier = Modifier.width(68.dp)) {
+            Column (modifier = Modifier) {
                 Image(
                     painter = painterResource(id = curso.drawableRes),
-                    contentDescription = stringResource(id = R.string.architecture_description),
+                    contentDescription = stringResource(id = curso.stringResDescripcionImagen),
                     Modifier
                         .height(68.dp)
                         .width(68.dp)
@@ -85,7 +85,7 @@ fun TarjetaCurso(
                         text = stringResource(id = curso.stringResTipoCurso),
                         style = MaterialTheme.typography.bodyMedium,
                         modifier = Modifier
-                            .padding(start = 16.dp ,top = 16.dp, end = 16.dp)
+                            .padding(start = 8.dp ,top = 16.dp)
                     )
                 }
 
@@ -99,7 +99,7 @@ fun TarjetaCurso(
                         painter = painterResource(id = R.drawable.icono_contador_24),
                         contentDescription = null,
                         modifier = Modifier
-                            .padding(start = 16.dp)
+                            .padding(start = 8.dp)
                     )
                     Text(
                         text = curso.cuentaCursos.toString(),
@@ -124,7 +124,7 @@ fun ListadoCursos(
             TarjetaCurso(
                 curso = it,
                 modifier = Modifier
-                    .padding(start = 5.dp, end = 5.dp, top = 5.dp)
+                    .padding(start = 8.dp, end = 8.dp, top = 8.dp)
             )
         }
     }

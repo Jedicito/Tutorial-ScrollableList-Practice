@@ -1,13 +1,10 @@
 <resources>
     <string name="app_name">Tutorial ScrollableList Practice</string>
+
     <string name="architecture">Architecture</string>
-    <string name="architecture_description">Architecture</string>
     <string name="crafts">Crafts</string>
-    <string name="crafts_description">Crafts</string>
     <string name="business">Business</string>
-    <string name="business_description">Business</string>
     <string name="culinary">Culinary</string>
-    <string name="culinary_description">Culinary</string>
     <string name="design">Design</string>
     <string name="fashion">Fashion</string>
     <string name="film">Film</string>
@@ -18,4 +15,19 @@
     <string name="painting">Painting</string>
     <string name="photography">Photography</string>
     <string name="tech">Tech</string>
+
+    <string name="architecture_descripcion">Architecture</string>
+    <string name="crafts_descripcion">Crafts</string>
+    <string name="business_descripcion">Business</string>
+    <string name="culinary_descripcion">Culinary</string>
+    <string name="design_descripcion">Design</string>
+    <string name="fashion_descripcion">Fashion</string>
+    <string name="film_descripcion">Film</string>
+    <string name="gaming_descripcion">Gaming</string>
+    <string name="drawing_descripcion">Drawing</string>
+    <string name="lifestyle_descripcion">Lifestyle</string>
+    <string name="music_descripcion">Music</string>
+    <string name="painting_descripcion">Painting</string>
+    <string name="photography_descripcion">Photography</string>
+    <string name="tech_descripcion">Tech</string>
 </resources>
