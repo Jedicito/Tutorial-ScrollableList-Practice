@@ -118,12 +118,12 @@ fun ListadoCursos(
     lista: List<Curso>,
     modifier: Modifier
 ) {
-    LazyVerticalGrid(columns = GridCells.Fixed(2)) {
+    LazyVerticalGrid(columns = GridCells.Fixed(2), modifier = modifier.padding(end = 8.dp)) {
         items(lista) {
             TarjetaCurso(
                 curso = it,
                 modifier = Modifier
-                    .padding(start = 8.dp, end = 8.dp, top = 8.dp)
+                    .padding(start = 8.dp, top = 8.dp)
             )
         }
     }
