@@ -39,7 +39,6 @@ class MainActivity : ComponentActivity() {
                     Column (
                         modifier = Modifier
                             .padding(innerPadding)
-                            .padding(16.dp)
                     ) {
                         CursosApp()
                     }
